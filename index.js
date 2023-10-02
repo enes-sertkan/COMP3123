@@ -10,7 +10,7 @@ app.get('/hello', (req, res) => {
   res.send('Hello Express JS');
 });
 
-//http://localhost:3000/user?firstname=Erdal&lastname=Ozkaya
+//http://localhost:3000/user?firstname=Enes&lastname=Sertkan
 // GET request: /user with query parameters
 app.get('/user', (req, res) => {
   const { firstname, lastname } = req.query;
